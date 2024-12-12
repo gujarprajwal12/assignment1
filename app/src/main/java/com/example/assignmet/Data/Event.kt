@@ -1,0 +1,30 @@
+package com.example.assignmet.Data
+
+data class Event(
+    val Events: Events,
+    val ListofEvents: Any,
+    val RegistrationLink: String,
+    val SADashboardimgUrl: String,
+    val SelfcheckinBGimage: String,
+    val SplashImage: String,
+    val company: String,
+    val country: String,
+    val countrycodes: String,
+    val endDate: String,
+    val hidetestval: String,
+    val image: String,
+    val isBannerSelected: Boolean,
+    val isSplashSelected: Boolean,
+    val isadmin: Boolean,
+    val lastRefreshDate: String,
+    val mmAccess: Boolean,
+    val mmendDate: String,
+    val mmstartDate: String,
+    val roles: String,
+    val selfcheckinbgcolor: String,
+    val selfcheckineventlogo: String,
+    val selfcheckinoption: String,
+    val sessiontime: Int,
+    val startDate: String,
+    val state: Any
+)
